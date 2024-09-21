@@ -1,0 +1,18 @@
+#popup_conatiner2 {
+    width: 20%;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.main_popup_cont{
+    background-color: rgba(0, 0, 0, 0.156);
+    display:none;
+    justify-content:center;
+    z-index: 1;
+    align-items:center;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+}

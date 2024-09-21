@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /slotBooking/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+#Redirect admin/login /slotbooking/admin/login.php
+#RewriteRule slotbooking/login /loginAndCreateAcc.php

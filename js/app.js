@@ -1,0 +1,1 @@
+slotBookingApp = angular.module('slotBookingApp',[]);
